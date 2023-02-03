@@ -1,0 +1,40 @@
+
+/* Prima clasa pt o tintim dupa numele clasei si se aplica la toate tagurile care o contin */
+
+.patratMarime {
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    background-color: aqua;
+    border: 5px solid red;
+}
+
+/* A doua clasa o tintim tot dupa nume si dak avem nevoie si un tag  */
+
+.maiMultPadding p{
+
+    display: block;
+    background-color: blue;
+    padding: 20px ;
+
+}
+
+/* Un id pt fiecaretag si tre sa fie unic  */
+
+#verde {
+    background-color: green;
+}
+
+#galben {
+    background-color: yellow;
+}
+
+#maiMareText {
+    font-size: 20px;
+    color: rgb(203, 51, 51);
+}
+
+/* toate proprietatile care apar dupa suprascriu pe cele dinainte  */
+/* exemplu toate patratele sa fie background-color: aqua; pe linia 9  */
+/* suprasicris pe linia 18     background-color: blue; sa fie albastru  */
