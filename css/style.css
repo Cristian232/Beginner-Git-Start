@@ -1,3 +1,35 @@
-ul li {
-    display: inline;
+#footer-container {
+    background-color: rgb(54, 53, 59);
+    display: flex;
+    justify-content: center;
 }
+
+#menu-list li{
+    color: white;
+    display: inline-block;
+}
+
+#social-media-icons li {
+    display: inline;
+    
+}
+
+#menu-section-bottom {
+    background-color: rgb(54, 53, 59);
+    
+
+}
+
+.fourth-container {
+    background-color: rgb(30, 29, 35);
+}
+
+.section-content-item-text-fourth-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.section-content-item-text-fourth-container p {
+    color: white;
+}
+
